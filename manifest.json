@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "FocusGram",
+  "version": "1.0",
+  "description": "",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.instagram.com/*"
+      ],
+      "js": ["rules.js", "utils.js", "content.js"]
+    }
+  ]
+}
